@@ -1,7 +1,7 @@
-﻿using System;
-using System.IO;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +10,7 @@ namespace ObjectOrientedProgram
 {
     public class InventoryImplementation
     {
-        private static string filepath = "H:/Json.json";
+        private static string filepath = "H:/JSON.json";
         public void Add()
         {
             string jfile = File.ReadAllText(filepath);
@@ -46,7 +46,7 @@ namespace ObjectOrientedProgram
                 sum = item.TotalPrice;
             }
 
-            ///running a  based on user
+            ////running a  based on user
             switch (entered)
             {
                 case 1:
@@ -187,5 +187,6 @@ namespace ObjectOrientedProgram
                     break;
             }
         }
+
     }
 }
