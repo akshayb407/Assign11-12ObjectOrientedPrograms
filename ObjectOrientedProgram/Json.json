@@ -1,0 +1,12 @@
+{
+  "H": "\\All",
+  "Asignment\\Assignment11&12\\ObjectOrientedPrograms\\ObjectOrientedProgram\\ObjectOrientedProgram\\Json.json": null,
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ]
+}
